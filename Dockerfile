@@ -11,4 +11,4 @@ COPY app/ /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # アプリケーションを実行
-CMD ["python", "main.py"]
+CMD ["bash"]
